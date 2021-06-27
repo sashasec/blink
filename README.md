@@ -12,7 +12,9 @@ requirements:
 
 Usage: 
 
-    python test_blink.py
+    python test.py
+    
+    # After validating the authentication to the system of your focus in the login() and get_ticket_list() methods, run: 
     python3 blink.py 
 
 
