@@ -1,7 +1,8 @@
 # blink
 A visual flashing indicator connected to ticketing or other systems. 
 
-Inspiration for this project came from noticing the difficulty in effectively utilizing flat screen TVs for displaying SOC dashbaords. More on that [here](https://sashasec.medium.com/soc-dashboard-destroyer-a-29-99-flash-drive-using-tlp-3f05041e8211).
+Inspiration for this project came from noticing the difficulty in effectively utilizing TVs in SOCs. 
+More on that [here](https://sashasec.medium.com/soc-dashboard-destroyer-a-29-99-flash-drive-using-tlp-3f05041e8211). TLDR: use a Blink1 instead. 
 
 For only $29.99 you can buy a ThingM Blink(1) LED USB -> [here](https://www.amazon.com/ThingM-Blink-USB-RGB-BLINK1MK3/dp/B07Q8944QK/ref=sr_1_1?crid=2E6PMKXCOAL10&dchild=1&keywords=thingm+blink&qid=1624758572&sprefix=thingm%2Caps%2C293&sr=8-1)
 
@@ -20,7 +21,7 @@ Usage:
     python3 blink.py 
 
 
-Testing in Python interactive shell:
+Testing colors manually in python interactive shell: 
 
     import time
     from blink1.blink1 import Blink1
