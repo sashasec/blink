@@ -14,7 +14,7 @@ Usage:
 
     python test.py
     
-    # After validating the authentication to the system of your focus in the login() and get_ticket_list() methods, run: 
+    # Once connected with your given ticketing system, run: 
     python3 blink.py 
 
 
